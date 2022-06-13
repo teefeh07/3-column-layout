@@ -85,7 +85,7 @@ button {
 
 
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 375px) {
   .container {
     display: flex;
     flex-wrap: wrap;
