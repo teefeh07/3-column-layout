@@ -83,6 +83,22 @@ button {
   font-family: Big Shoulders Display, Arial;
 }
 
+@media only screen and (max-width: 716px) {
+  .container {
+    display: flex;
+    
+  }
+
+  .sedans {
+    margin-left: 0px;
+  }
+
+  .luxury {
+
+    margin-right: 0px;
+  }
+}
+
 
 
 @media only screen and (max-width: 375px) {
