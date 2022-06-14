@@ -217,8 +217,8 @@ button {
 
   .sedans {
 
-    flex: 1;
-    margin-left: 10px;
+    flex: 0 0 100px;
+    margin-left: 5px;
     
   }
 
@@ -229,10 +229,10 @@ button {
 
 
   .suvs {
-    flex: 1;
+    flex: 0 0 100px;
   }
   .luxury {
-    flex: 1;
-    margin-right: 10px;
+    flex: 0 0 150px;
+    margin-right: 5px;
   }
 }
