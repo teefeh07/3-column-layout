@@ -8,8 +8,54 @@
 body {
   background-color: hsl(0, 0%, 95%);
   font-size: 15px;
-  padding-bottom: 900px;
+  padding-bottom: 500px;
 }
+ul {
+  display: flex; 
+
+ flex-direction: row;
+ justify-content: space-evenly;
+ align-items: center;
+ 
+}
+
+
+
+nav ul {
+   list-style-type: none;
+}
+
+.navigation {
+ 
+ background-color: black;
+
+
+ 
+ 
+}
+
+.navigation .navbar li a {
+ color: white;
+ font-size: 18px;
+ 
+ text-decoration: none;
+}
+
+
+a:hover {
+
+ border-bottom: 3px solid white;
+}
+
+.logo{
+  margin-left: -30px
+}
+
+
+
+
+
+
 .container {
   display: flex;
   justify-content: center;
@@ -19,7 +65,7 @@ body {
 .sedans {
   background-color: hsl(31, 77%, 52%);
   flex: 0 0 400px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .suvs {
   background-color: hsl(184, 100%, 22%);
@@ -28,7 +74,7 @@ body {
 .luxury {
   background-color: hsl(179, 100%, 13%);
   flex: 0 0 400px;
-  margin-right: 50px;
+  /* margin-right: 50px; */
 }
 
 button:hover {
@@ -83,7 +129,39 @@ button {
   font-family: Big Shoulders Display, Arial;
 }
 
+@media  (max-width: 1217px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
+  .sedans {
+    margin-left: 0px;
+  }
+
+  .luxury {
+    flex: 0 0 800px;
+    margin-right: 0px;
+  }
+
+  
+}
+
+@media only screen and (max-width: 716px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sedans {
+    margin-left: 0px;
+  }
+
+  .luxury {
+    flex: 0 0 400px;
+    margin-right: 0px;
+  }
+}
 
 @media only screen and (max-width: 550px) {
   .container {
@@ -92,17 +170,27 @@ button {
   }
 
   .sedans {
-    flex: 0 0 50px;
+    flex: 1;
+    margin-left: 10px;
   }
 
-  p {
-    width: 250px;
-  }
+
 
   .suvs {
-    flex: 0 0 50px;
+    flex: 1;
   }
   .luxury {
-    flex: 0 0 50px;
+    flex: 1;
+    margin-right: 10px;
   }
+
+  .luxury_btn{
+    margin-top: 58px;
+  }
+  .sedans_btn{
+
+    margin-top: 58px;
+  }
+  
+
 }
