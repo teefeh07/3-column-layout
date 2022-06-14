@@ -221,7 +221,7 @@ button {
   .sedans {
 
     flex: 1;
-/*     margin-left: 5px; */
+    margin-left: 5px; 
     
   }
 
@@ -233,13 +233,13 @@ button {
 
   .suvs {
     flex: 1;
-/*     margin-right: 5px;
-    margin-left: 5px; */
+    margin-right: 5px;
+    margin-left: 5px; 
     
   }
   .luxury {
     flex: 1;
-/*     margin-right: 5px; */
+     margin-right: 5px; 
   }
 }
  */
