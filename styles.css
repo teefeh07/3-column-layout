@@ -18,16 +18,16 @@ body {
 }
 .sedans {
   background-color: hsl(31, 77%, 52%);
-  flex: 0 0 200px;
+  flex: 0 0 400px;
   margin-left: 50px;
 }
 .suvs {
   background-color: hsl(184, 100%, 22%);
-  flex: 0 0 200px;
+  flex: 0 0 400px;
 }
 .luxury {
   background-color: hsl(179, 100%, 13%);
-  flex: 0 0 200px;
+  flex: 0 0 400px;
   margin-right: 50px;
 }
 
@@ -83,21 +83,7 @@ button {
   font-family: Big Shoulders Display, Arial;
 }
 
-@media only screen and (max-width: 716px) {
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-  }
 
-  .sedans {
-    margin-left: 0px;
-  }
-
-  .luxury {
-    flex: 0 0 400px;
-    margin-right: 0px;
-  }
-}
 
 @media only screen and (max-width: 550px) {
   .container {
