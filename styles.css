@@ -230,6 +230,9 @@ button {
 
   .suvs {
     flex: 0 0 100px;
+    margin-right: 5px;
+    margin-left: 5px;
+    
   }
   .luxury {
     flex: 0 0 150px;
