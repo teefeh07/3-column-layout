@@ -171,23 +171,30 @@ button {
  @media only screen and (max-width: 716px) {
   .container {
     display: flex;
-    flex-wrap: wrap;
+/*     flex-wrap: wrap; */
+    flex-direction: row;
   }
 
   .sedans {
-    margin-left: 0px;
+/*     margin-left: 0px; */
+     margin-left: 10px;
+    flex: 0 0 200px;
+  }
+     .suvs{
+    flex: 0 0 200px;
   }
 
   .luxury {
-    flex: 0 0 400px;
+     flex: 0 0 200px;
  
-    margin-right: 0px;
+    margin-right: 10px;
+/*     flex: 0 0 400px; */
+/*  
+    margin-right: 0px; */
   }
 } 
 
-/* @media only screen and (max-width: 550px) {
-} */
-/* @media only screen and (max-width: 550px) {
+
 
 
   .sedans {
@@ -214,14 +221,17 @@ button {
 
 @media only screen and (max-width: 375px) {
   .container{
-    flex-wrap: no-wrap;
+    display: flex;
+    flex-direction: column;
   }
 
 
   .sedans {
-
+    flex: 0 0 200px;
+/* 
     flex: 1;
-    margin-left: 5px; 
+    margin-left: 5px;  */
+   
     
   }
 
@@ -232,14 +242,16 @@ button {
 
 
   .suvs {
-    flex: 1;
-    margin-right: 5px;
-    margin-left: 5px; 
+/*     flex: 0 0 200px; */
+
+/*     margin-right: 5px;
+    margin-left: 5px;  */
     
   }
   .luxury {
-    flex: 1;
+/*     flex: 1; */
+      flex: 0 0 200px;
      margin-right: 5px; 
   }
 }
- */
+ 
